@@ -7,6 +7,16 @@
     <groupId>me.pustinek</groupId>
     <artifactId>ExtensiveInventory</artifactId>
     <version>1.1.0</version>
+    <name>ExtensiveInventory</name>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>pustinek</name>
+            <url>https://maven.pkg.github.com/pustinek/ExtensiveInventory</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <defaultGoal>clean package</defaultGoal>
         <plugins>
@@ -20,22 +30,9 @@
                 </configuration>
             </plugin>
         </plugins>
-        <extensions>
-            <extension>
-                <groupId>io.packagecloud.maven.wagon</groupId>
-                <artifactId>maven-packagecloud-wagon</artifactId>
-                <version>0.0.6</version>
-            </extension>
-        </extensions>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>packagecloud-pustinek</id>
-            <url>packagecloud+https://packagecloud.io/pustinek/extensive-inventory</url>
-        </repository>
 
-    </distributionManagement>
 
 
 
