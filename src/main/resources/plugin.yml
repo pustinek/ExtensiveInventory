@@ -1,0 +1,5 @@
+name: ExtensiveInventory
+version: ${project.version}
+description: Inventory API for your Bukkit Plugins.
+author: Pustinek
+main: me.pustinek.inv.ExtensiveInventoryPlugin
